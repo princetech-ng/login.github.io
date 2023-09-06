@@ -1,0 +1,21 @@
+@import url(./All\ CSS/container.css);
+@import url(./All\ CSS/input.css);
+@import url(./All\ CSS/guest.css);
+@import url(./All\ CSS/password.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;
+    background: #1f293a;
+}

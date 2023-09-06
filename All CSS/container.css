@@ -1,0 +1,53 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 530px;
+    background: transparent;
+    border: 2px solid #0ef;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 45px;
+    overflow: hidden;
+}
+
+.container .login-box{
+    position: relative;
+    width: 100%;
+    
+}
+
+.login-box .page-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-box .page {
+    width: 100%;
+}
+
+.page-box .page.email-page {
+    transform: translateX(0px);
+    transition: .25s ease-in-out;
+}
+
+.page-box.active-pass .page.email-page{
+    transform: translateX(-500px);
+}
+
+.page-box .login-title{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.login-title h2{
+    font-size: 32px;
+    line-height: 1.5;
+
+}
+
+.login-title p{
+    font-size: 16px;
+    font-weight: 500;
+}
